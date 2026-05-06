@@ -1,0 +1,11 @@
+# Ambientes Virtuais
+venv/
+env/
+.env
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Banco de dados local (se o Chroma criar pastas locais)
+chroma_db/
