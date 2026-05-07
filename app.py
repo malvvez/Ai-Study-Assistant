@@ -4,8 +4,6 @@ AI Study Assistant - A Retrieval-Augmented Generation (RAG) application.
 This application allows users to upload a PDF document and ask questions about it.
 It uses LangChain to process the document, HuggingFace for local embeddings, 
 ChromaDB as a vector store, and Google's Gemini model for generation.
-
-Author: [Seu Nome Aqui]
 """
 
 import streamlit as st
