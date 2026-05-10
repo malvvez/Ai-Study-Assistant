@@ -148,13 +148,10 @@ if uploaded_files:
 
     finally:
         # --- 8. Cleanup ---
-<<<<<<< HEAD
         # Always delete the temporary file to prevent memory/storage leaks, 
         # even if an error occurs during processing.
         if os.path.exists(tmp_path):
             os.remove(tmp_path)
-=======
         for path in temp_paths:
             if os.path.exists(path):
                 os.remove(path)
->>>>>>> 6edeca9 (Added support for multiple PDF uploads)
